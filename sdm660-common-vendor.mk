@@ -708,7 +708,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/sdm660-common/proprietary/vendor/radio/qcril_database/upgrade/5_version_update_ecc_table.sql:$(TARGET_COPY_OUT_VENDOR)/radio/qcril_database/upgrade/5_version_update_ecc_table.sql
 
 PRODUCT_PACKAGES += \
-    chargeonlymode \
     CneApp \
     com.qti.dpmframework \
     com.qualcomm.qti.uceservice-V2.0-java \
