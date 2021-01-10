@@ -1,5 +1,6 @@
 # Copyright (C) 2018-2021 The LineageOS Project
 # Copyright (C) 2020-2021 The Project-Awaken
+# Copyright (C) 2021 Paranoid Android
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
