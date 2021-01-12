@@ -87,7 +87,7 @@ android_app_import {
 
 android_app_import {
 	name: "QtiTelephonyService",
-	owner: "xiaomi",
+	owner: "qcom",
 	apk: "proprietary/system_ext/app/QtiTelephonyService/QtiTelephonyService.apk",
 	certificate: "platform",
 	dex_preopt: {
@@ -98,7 +98,7 @@ android_app_import {
 
 android_app_import {
 	name: "datastatusnotification",
-	owner: "xiaomi",
+	owner: "qcom",
 	apk: "proprietary/system_ext/app/datastatusnotification/datastatusnotification.apk",
 	certificate: "platform",
 	dex_preopt: {
@@ -109,7 +109,7 @@ android_app_import {
 
 android_app_import {
 	name: "imssettings",
-	owner: "xiaomi",
+	owner: "qcom",
 	apk: "proprietary/system_ext/app/imssettings/imssettings.apk",
 	certificate: "platform",
 	dex_preopt: {
@@ -120,7 +120,7 @@ android_app_import {
 
 android_app_import {
 	name: "uceShimService",
-	owner: "xiaomi",
+	owner: "qcom",
 	apk: "proprietary/system_ext/app/uceShimService/uceShimService.apk",
 	certificate: "platform",
 	dex_preopt: {
@@ -131,7 +131,7 @@ android_app_import {
 
 android_app_import {
 	name: "dpmserviceapp",
-	owner: "xiaomi",
+	owner: "qcom",
 	apk: "proprietary/system_ext/priv-app/dpmserviceapp/dpmserviceapp.apk",
 	certificate: "platform",
 	dex_preopt: {
@@ -143,7 +143,7 @@ android_app_import {
 
 android_app_import {
 	name: "ims",
-	owner: "xiaomi",
+	owner: "qcom",
 	apk: "proprietary/system_ext/priv-app/ims/ims.apk",
 	certificate: "platform",
 	dex_preopt: {
@@ -155,7 +155,7 @@ android_app_import {
 
 android_app_import {
 	name: "qcrilmsgtunnel",
-	owner: "xiaomi",
+	owner: "qcom",
 	apk: "proprietary/system_ext/priv-app/qcrilmsgtunnel/qcrilmsgtunnel.apk",
 	certificate: "platform",
 	dex_preopt: {
@@ -167,7 +167,7 @@ android_app_import {
 
 android_app_import {
 	name: "SSGTelemetryService",
-	owner: "xiaomi",
+	owner: "qcom",
 	apk: "proprietary/vendor/app/SSGTelemetryService/SSGTelemetryService.apk",
 	presigned: true,
 	dex_preopt: {
@@ -178,7 +178,7 @@ android_app_import {
 
 android_app_import {
 	name: "TrustZoneAccessService",
-	owner: "xiaomi",
+	owner: "qcom",
 	apk: "proprietary/vendor/app/TrustZoneAccessService/TrustZoneAccessService.apk",
 	presigned: true,
 	dex_preopt: {
@@ -279,49 +279,56 @@ dex_import {
 
 dex_import {
 	name: "vendor.qti.hardware.data.connection-V1.1-java",
-	owner: "xiaomi",
+	owner: "qcom",
 	jars: ["proprietary/system_ext/framework/vendor.qti.hardware.data.connection-V1.1-java.jar"],
 	system_ext_specific: true,
 }
 
 dex_import {
 	name: "vendor.qti.data.factory-V2.1-java",
-	owner: "xiaomi",
+	owner: "qcom",
 	jars: ["proprietary/system_ext/framework/vendor.qti.data.factory-V2.1-java.jar"],
 	system_ext_specific: true,
 }
 
 dex_import {
 	name: "vendor.qti.hardware.data.latency-V1.0-java",
-	owner: "xiaomi",
+	owner: "qcom",
 	jars: ["proprietary/system_ext/framework/vendor.qti.hardware.data.latency-V1.0-java.jar"],
 	system_ext_specific: true,
 }
 
 dex_import {
 	name: "vendor.qti.ims.callcapability-V1.0-java",
-	owner: "xiaomi",
+	owner: "qcom",
 	jars: ["proprietary/system_ext/framework/vendor.qti.ims.callcapability-V1.0-java.jar"],
 	system_ext_specific: true,
 }
 
 dex_import {
 	name: "vendor.qti.ims.factory-V1.0-java",
-	owner: "xiaomi",
+	owner: "qcom",
 	jars: ["proprietary/system_ext/framework/vendor.qti.ims.factory-V1.0-java.jar"],
 	system_ext_specific: true,
 }
 
 dex_import {
 	name: "vendor.qti.ims.rcsconfig-V1.0-java",
-	owner: "xiaomi",
+	owner: "qcom",
 	jars: ["proprietary/system_ext/framework/vendor.qti.ims.rcsconfig-V1.0-java.jar"],
 	system_ext_specific: true,
 }
 
 dex_import {
+	name: "vendor.qti.latency-V2.0-java",
+	owner: "qcom",
+	jars: ["proprietary/system_ext/framework/vendor.qti.latency-V2.0-java.jar"],
+	system_ext_specific: true,
+}
+
+dex_import {
 	name: "vendor.qti.ims.rcsconfig-V1.1-java",
-	owner: "xiaomi",
+	owner: "qcom",
 	jars: ["proprietary/system_ext/framework/vendor.qti.ims.rcsconfig-V1.1-java.jar"],
 	system_ext_specific: true,
 }
@@ -336,7 +343,7 @@ prebuilt_etc_xml {
 
 prebuilt_etc_xml {
 	name: "vendor.qti.gnss@4.0-service",
-	owner: "xiaomi",
+	owner: "qcom",
 	src: "proprietary/vendor/etc/vintf/manifest/vendor.qti.gnss@4.0-service.xml",
 	sub_dir: "vintf/manifest",
 	soc_specific: true,
@@ -444,7 +451,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
 	name: "vendor.qti.hardware.fm@1.0",
-	owner: "xiaomi",
+	owner: "qcom",
 	strip: {
 		none: true,
 	},
